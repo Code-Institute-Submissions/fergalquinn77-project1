@@ -155,3 +155,7 @@ hr{
 
     position: absolute;
 }
+
+#gallery {
+    height: 600px;
+}
