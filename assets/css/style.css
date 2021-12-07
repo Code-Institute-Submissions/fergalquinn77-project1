@@ -25,21 +25,7 @@ h1, h2{font-family: Alegreya, sans-serif;
     margin-left: 35px;
 }
 
-#logo-outer {
-    width:300px;
-    height:150px;
-    border-style:solid;
-    border-color:#D3BA34;
-    border-width:1px;
-    border-radius: 50%;
-    float:left;
-    margin-top: 10px;
-    margin-left: 10px;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#logo, #logo-outer, #menu {
+#logo, #menu {
     line-height:150px;
 }
 
@@ -48,6 +34,7 @@ h1, h2{font-family: Alegreya, sans-serif;
     float:right;
     list-style-type: none;
     margin-right: 30px;
+    font-size: 150%;
 }
 
 #menu a{
@@ -98,4 +85,8 @@ h1, h2{font-family: Alegreya, sans-serif;
 
     position: absolute;
     transition-delay: 1s;
+}
+
+.contrast{
+    background-color: white;
 }
