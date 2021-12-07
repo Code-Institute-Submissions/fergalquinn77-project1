@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+body {
+    font-family: Alegreya, sans-serif;
+    font-weight:500;
+    color: #D3BA34;
+    background-color: black;
+    }
+
+    /* Headings and Logo style */
+
+h1, h2{font-family: Alegreya, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:4px;
+}
+
+#logo {float:left;
+    font-size:20px;
+    margin-left: 35px;
+}
+
+#logo-outer {
+    width:300px;
+    height:150px;
+    border-style:solid;
+    border-color:#D3BA34;
+    border-width:1px;
+    border-radius: 50%;
+    float:left;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo, #logo-outer, #menu {
+    line-height:150px;
+}
