@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Jacques+Francois+Shadow&display=swap');
 
 *{
     margin:0;
@@ -23,6 +23,11 @@ h1, h2{font-family: Alegreya, sans-serif;
 #logo {float:left;
     font-size:20px;
     margin-left: 35px;
+}
+
+#logo h1{
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-weight:lighter;
 }
 
 #logo, #menu {
@@ -215,11 +220,12 @@ footer {
     line-height: 0;
     column-count: 2;
     column-gap: 0;
+    
 }
 
 #photos > img{
     width: 100%;
-
+    border: 1px solid #D3BA34;
 }
 
 #photos img:hover {
