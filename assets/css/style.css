@@ -55,7 +55,7 @@ h1, h2{font-family: Alegreya, sans-serif;
     border-bottom: 1px solid #fdf7f7;
 }
 
-/*Hero Image */
+/*Home Page - Hero Image */
 
 #hero-image-section{
     height:600px;
@@ -91,7 +91,7 @@ h1, h2{font-family: Alegreya, sans-serif;
     position: absolute;
 }
 
-/* Arrange Bookings Section */
+/* Home Page - Arrange Bookings Section */
 
 #bookings {
     height: 600px;
@@ -161,7 +161,8 @@ hr{
     position: absolute;
 }
 
-/* Find Us Section */
+/* Homepage - Find Us Section */
+
 #find-us {
     height: 600px;
 }
@@ -266,3 +267,43 @@ input, textarea {
     width:50%;
     margin: 0 auto;
   }
+
+  /* Media Queries */
+
+  @media screen and (max-width: 800px){
+  
+    #menu li{
+        clear:left;
+        float:left;
+        margin-right: 30px;
+        font-size: 150%;
+    }
+    #logo, #menu {
+        line-height:normal;
+    }
+    #cover-text {
+        left:0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hidden-mobile {
+      display: none;
+    }
+    #center-booking{
+        width: 100%;
+    }
+
+    .footer-elements li {
+        display:block;
+    }
+    
+    #photos {
+        column-count: 1;
+    }
+
+    .container {
+        width:100%;
+      }
+
+}
