@@ -175,8 +175,10 @@ footer {
     text-align:center;
 }
 
-.footer-elements > li {
-    display:inline;
+.footer-elements li {
+    display:inline-block;
+    list-style-type:none;
+    padding:2%;
 }
 
 .footer-elements i{
@@ -188,9 +190,4 @@ footer {
 .footer-elements a {
     text-decoration:none;
     color:inherit;
-}
-
-.footer-elements ul {
-    list-style: none outside none;
-    margin: 0;
 }
