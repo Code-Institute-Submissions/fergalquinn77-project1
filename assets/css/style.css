@@ -231,3 +231,38 @@ footer {
 #photos img:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+/* Contact Us Page */
+
+input, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #D3BA34; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+  }
+
+  input[type=submit] {
+    background-color: #D3BA34;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:50%;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+    width:50%;
+    margin: 0 auto;
+  }
