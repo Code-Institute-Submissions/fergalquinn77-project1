@@ -144,7 +144,7 @@ hr{
     text-size-adjust: 200%;
 }
 
-#section-heading {
+.section-heading {
     font-size: 150%;
     font-family: Alegreya, sans-serif;
     text-transform: uppercase;
