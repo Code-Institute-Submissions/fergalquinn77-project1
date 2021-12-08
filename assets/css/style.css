@@ -191,3 +191,21 @@ footer {
     text-decoration:none;
     color:inherit;
 }
+
+/* Gallery Page */
+
+#gallery-heading {
+    font-size: 150%;
+    font-family: Alegreya, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100px;
+
+    background-color: rgba(44, 36, 36, 0.7);
+
+}
