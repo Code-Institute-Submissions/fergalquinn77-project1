@@ -167,5 +167,30 @@ hr{
     margin-top: 100px;
 }
 
+footer {
+    height:150px;
+}
 
+.footer-elements{
+    text-align:center;
+}
 
+.footer-elements > li {
+    display:inline;
+}
+
+.footer-elements i{
+    font-size: 160%;
+    margin: 1%;
+    color:#D3BA34;
+}
+
+.footer-elements a {
+    text-decoration:none;
+    color:inherit;
+}
+
+.footer-elements ul {
+    list-style: none outside none;
+    margin: 0;
+}
