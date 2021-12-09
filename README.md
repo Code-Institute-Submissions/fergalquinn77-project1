@@ -29,6 +29,38 @@ Users of the site will be able to browse pictures of the venue in the Gallery se
 
 ![Booking Portal](assets/images/booking-portal.jpg)
 
+- The Contact-Us Section
+
+    - The contact section allows users to send a message to the bar and captures the necessary information like name, email and message.
+    - It provides a quick and easy way of the user making contact
+
+   ![Contact-Us Page](assets/images/contact-us.jpg) 
+
+   - The Gallery Page
+
+        - This provides the user with a selection of photos from Kennedys Bar. The images display a strong Rugby and live music theme.
+
+   ![Gallery Images](assets/images/gallery.jpg)      
+
+## Testing
+
+- I tested that the page works in the different browsers: Chrome, Safari, Firefox.
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using devtools device toolbar.
+- I confirmed that the navigation, header, & contact-us text are all readable and easy to understand.
+- I have confirmed that the form works. It requires entries at every field and it will only accept an email in the email field. The submit button works.
+
+## Bugs
+
+## Validator Testing
+
+- HTML
+    - No errors were found when passing through the official W3C validator
+- CSS
+    - No errors were found when passing through the offical Jogsaw validator
+-Accessibility
+    - Confirmed that font choice was easy to read and accessible by running it through lighthouse in devtools.
+
+ ![Lighthouse Report](assets/images/lighthouse-report.jpg)   
 
 
 
