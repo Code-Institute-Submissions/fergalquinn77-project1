@@ -94,17 +94,17 @@ h1, h2{font-family: Alegreya, sans-serif;
 /* Home Page - Arrange Bookings Section */
 
 #bookings {
-    height: 600px;
+    height: 700px;
 }
 
 #left-booking{
-    padding-top: 30px;
+    padding-top: 80px;
     width: 30%;
     float: left;
 }
 
 #right-booking{
-    padding-top: 30px;
+    padding-top: 80px;
     width: 30%;
     float: right;
 }
@@ -126,7 +126,7 @@ hr{
     line-height: 20px;
     clear:both;
     margin-bottom: 50px;
-    padding-top:100px;
+    padding-top:130px;
     text-align:center;
 }
 .right-booking-heading{
@@ -135,7 +135,7 @@ hr{
     line-height: 20px;
     clear:both;
     margin-bottom: 50px;
-    padding-top:100px;
+    padding-top:130px;
     text-align:center;
 }
 
