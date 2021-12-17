@@ -1,72 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Jacques+Francois+Shadow&display=swap');
 
-*{
-    margin:0;
-    padding:0;
-    border:none;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 body {
     font-family: Alegreya, sans-serif;
-    font-weight:500;
+    font-weight: 500;
     color: #D3BA34;
     background-color: black;
-    }
-
-    /* Headings and Logo style */
-
-h1, h2{font-family: Alegreya, sans-serif;
-    text-transform:uppercase;
-    letter-spacing:4px;
 }
 
-#logo {float:left;
-    font-size:20px;
+/* Headings and Logo style */
+
+h1,
+h2 {
+    font-family: Alegreya, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#logo {
+    float: left;
+    font-size: 20px;
     margin-left: 35px;
 }
 
-#logo h1{
+#logo h1 {
     font-family: 'Jacques Francois Shadow', cursive;
-    font-weight:lighter;
+    font-weight: lighter;
 }
 
-#logo, #menu {
-    line-height:150px;
+#logo,
+#menu {
+    line-height: 150px;
 }
 
 
-#menu li{
-    float:right;
+#menu li {
+    float: right;
     list-style-type: none;
     margin-right: 30px;
     font-size: 150%;
 }
 
-#menu a{
-    text-decoration:none;
-    color:inherit;
+#menu a {
+    text-decoration: none;
+    color: inherit;
 }
 
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid #fdf7f7;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #fdf7f7;
 }
 
 /*Home Page - Hero Image */
 
-#hero-image-section{
-    height:600px;
-    width:100%;
-    overflow:hidden;
-    position:relative;
+#hero-image-section {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
-#rugby-country{
-    height:600px;
-    width:100%;
+#rugby-country {
+    height: 600px;
+    width: 100%;
     background: url('../images/bar-staff-kennedys-guinness.jpg') no-repeat center center;
 }
 
@@ -75,7 +79,7 @@ h1, h2{font-family: Alegreya, sans-serif;
     font-family: Alegreya, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    text-align:center;
+    text-align: center;
 
     width: 300px;
     height: 200px;
@@ -97,50 +101,52 @@ h1, h2{font-family: Alegreya, sans-serif;
     height: 700px;
 }
 
-#left-booking{
+#left-booking {
     padding-top: 80px;
     width: 30%;
     float: left;
 }
 
-#right-booking{
+#right-booking {
     padding-top: 80px;
     width: 30%;
     float: right;
 }
 
-#center-booking{
+#center-booking {
     padding-top: 100px;
     width: 40%;
     margin: 0 auto;
 }
 
-hr{
+hr {
     border-top: 1px solid #3a3a3a;
-    width:inherit;
-    margin: 5px 0;}
-
-.left-booking-heading{
-    width: 100%;
-    float:right;
-    line-height: 20px;
-    clear:both;
-    margin-bottom: 50px;
-    padding-top:130px;
-    text-align:center;
-}
-.right-booking-heading{
-    width: 100%;
-    float:left;
-    line-height: 20px;
-    clear:both;
-    margin-bottom: 50px;
-    padding-top:130px;
-    text-align:center;
+    width: inherit;
+    margin: 5px 0;
 }
 
-#bookings > h2 {
-    text-align:center;
+.left-booking-heading {
+    width: 100%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.right-booking-heading {
+    width: 100%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    padding-top: 130px;
+    text-align: center;
+}
+
+#bookings>h2 {
+    text-align: center;
     text-size-adjust: 200%;
 }
 
@@ -168,34 +174,34 @@ hr{
 }
 
 #location-map {
-    width:100%; 
+    width: 100%;
     height: 500px;
     margin-top: 100px;
 }
 
 footer {
-    height:150px;
+    height: 150px;
 }
 
-.footer-elements{
-    text-align:center;
+.footer-elements {
+    text-align: center;
 }
 
 .footer-elements li {
-    display:inline-block;
-    list-style-type:none;
-    padding:2%;
+    display: inline-block;
+    list-style-type: none;
+    padding: 2%;
 }
 
-.footer-elements i{
+.footer-elements i {
     font-size: 160%;
     margin: 1%;
-    color:#D3BA34;
+    color: #D3BA34;
 }
 
 .footer-elements a {
-    text-decoration:none;
-    color:inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Gallery Page */
@@ -217,97 +223,103 @@ footer {
 }
 
 #photos {
-    clear:both;
+    clear: both;
     line-height: 0;
     column-count: 2;
     column-gap: 0;
-    
+
 }
 
-#photos > img{
+#photos>img {
     width: 100%;
     border: 1px solid #D3BA34;
 }
 
 #photos img:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 /* Contact Us Page */
 
-input, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #D3BA34; 
-    border-radius: 4px; 
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D3BA34;
+    border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical; 
-  }
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
 
-  input[type=submit] {
+input[type=submit] {
     background-color: #D3BA34;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width:50%;
-  }
+    width: 50%;
+}
 
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #45a049;
-  }
+}
 
-  .container {
+.container {
     border-radius: 5px;
     background-color: black;
     padding: 20px;
-    width:50%;
+    width: 50%;
     margin: 0 auto;
-  }
+}
 
-  /* Media Queries */
+/* Media Queries */
 
-  @media screen and (max-width: 800px){
-  
-    #menu li{
-        clear:left;
-        float:left;
+@media screen and (max-width: 800px) {
+
+    #menu li {
+        clear: left;
+        float: left;
         margin-right: 30px;
         font-size: 150%;
     }
-    #logo, #menu {
-        line-height:normal;
+
+    #logo,
+    #menu {
+        line-height: normal;
     }
+
     #cover-text {
-        left:0;
+        left: 0;
     }
 }
 
 @media screen and (max-width: 767px) {
     .hidden-mobile {
-      display: none;
+        display: none;
     }
-    #center-booking{
+
+    #center-booking {
         width: 100%;
     }
 
     .footer-elements li {
-        display:block;
+        display: block;
     }
-    
+
     #photos {
         column-count: 1;
     }
 
     .container {
-        width:100%;
-      }
+        width: 100%;
+    }
 
     #logo {
-        width:200px;
+        width: 200px;
         margin-left: 10px;
     }
 
