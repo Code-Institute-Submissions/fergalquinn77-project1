@@ -56,8 +56,8 @@ Users of the site will be able to browse pictures of the venue in the Gallery se
 - HTML
     - No errors were found when passing through the official W3C validator
 - CSS
-    - No errors were found when passing through the offical Jogsaw validator
--Accessibility
+    - No errors were found when passing through the offical Jigsaw validator
+- Accessibility
     - Confirmed that font choice was easy to read and accessible by running it through lighthouse in devtools.
 
  ![Lighthouse Report](assets/images/lighthouse-report.jpg)   
