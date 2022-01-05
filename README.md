@@ -12,7 +12,7 @@ Users of the site will be able to browse pictures of the venue in the Gallery se
     - Links to home page, contact us and gallery. 
     - The navigation is in font similar to Kennedys. The color of the Kennedys logo is Gold. The background used is black to give good contrast.
     - The navigation is clear and simple. It displays the logo for Kennedys on the left and the 3 sections to the right (or under the logo in mobile view). 
-    - [Click here for the wireframe](wireframe.pdf)
+    - [Click here for the wireframe](assets/images/wireframe.jpg)
 
 ![navigation bar](assets/images/header.jpg)
 
@@ -43,7 +43,14 @@ Users of the site will be able to browse pictures of the venue in the Gallery se
 
    ![Gallery Images](assets/images/gallery.jpg)   
 
-## Planned further development
+## Technologies Used
+
+Languages used:
+
+- HTML
+- CSS
+
+## Planned Further Development
 
 - I would like to use Javascript to make the navigation menu more responsive, particularily for mobile devices.
 
