@@ -56,8 +56,8 @@ Languages used:
 
 ## Testing
 
-- I tested that the page works in the different browsers: Chrome, Safari, Firefox.
-- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using devtools device toolbar.
+- I tested that the page works in the different browsers: [Chrome](assets/images/chrome-testing.jpg), Safari (via [BrowserStack](http://www.browserstack.com)), [Firefox](assets/images/firefox-testing.jpg).
+- I confirmed that this project is [responsive](assets/images/responsive-home.jpg), looks good and functions on all standard screen sizes using devtools device toolbar.
 - I confirmed that the navigation, header, & contact-us text are all readable and easy to understand.
 - I have confirmed that the form works. It requires entries at every field and it will only accept an email in the email field. The submit button works.
 
@@ -68,7 +68,7 @@ Languages used:
 - CSS
     - No errors were found when passing through the offical [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator). [Click here](assets/images/css-check.jpg) for results.
 - Accessibility
-    - Confirmed that font choice was easy to read and accessible by running it through lighthouse in devtools.
+    - Confirmed that font choice was easy to read and accessible by running it through lighthouse in devtools. Note the best practices performance was effected by the inclusion of Javascript (for booking portal), which is outside of my control.
 
  ![Lighthouse Report](assets/images/lighthouse-report.jpg)   
 
