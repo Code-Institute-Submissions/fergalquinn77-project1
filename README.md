@@ -74,6 +74,14 @@ Languages used:
 
  ## Deployment
 
+ ### Forking Instructions
+
+ To fork this repo - go to the [Github page](https://github.com/fergalquinn77/project1) and click the fork button on the top right.
+
+ ### Local deployment (Gitpod)
+
+ The project was edited on [Gitpod](https://crimson-gibbon-dduyw9gq.ws-eu25.gitpod.io/). Edits were then regularily pushed to Github.
+   
  ### GitHub Pages
 
  The project was deployed on GitHub Pages using the following steps:
